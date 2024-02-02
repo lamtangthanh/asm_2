@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    background: #fbfbff;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+  }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .menu-list {
+    display: flex;
+    gap: 43px;
+  }
+  
+  .btn-group {
+    display: flex;
+  }
+  
+  .btn-contact {
+    border: none;
+    padding: 16px 28px;
+    border-radius: 47px;
+    background: #7f56d9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .btn-signin {
+    border: none;
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .menu-link {
+    color: #55557a;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  /* feed back */
+  .feed-wrapper {
+    width: 520px;
+    height: 455px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 32px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+  
+  .username {
+    color: #1d1d45;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .feed-content {
+    color: #7e7eaa;
+    font-size: 22px;
+    padding-bottom: 56px;
+    padding-top: 26px;
+  }
+  
+  .feed-back {
+    display: flex;
+    gap: 24px;
+    margin-top: 56px;
+  }
+  
+  
+  /* Footer */
+  footer {
+    background-color: #7F56D9;
+    color: #fff;
+  }
+  
+  .footer {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .company-info {
+    max-width: 477px;
+  }
