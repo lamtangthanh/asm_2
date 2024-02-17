@@ -1,152 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASM 2</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <!-- img logo, ul li a menu; div: 2 button + login + resgiter -->
-      <nav class="container">
-        <img src="./images/logo.svg" alt="" class="logo" />
-        <ul class="menu-list">
-          <li class="menu-item">
-            <a href="#" class="menu-link">Home</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">Courses</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">Partners</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">Universities</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">Blog</a>
-          </li>
-          <li class="menu-item">
-            <a href="#" class="menu-link">Contact</a>
-          </li>
-        </ul>
-        <div class="btn-group">
-          <button class="btn-signin">Sign in</button>
-          <button class="btn-contact">Contact us</button>
-        </div>
-      </nav>
-    </header>
 
-    <main>
-      <section class="feed-back container">
-        <div class="feed-wrapper">
-          <div class="user">
-            <img src="./images/user.svg" alt="" class="user-img" />
-            <span class="username">Ronald Richards</span>
-          </div>
-          <p class="feed-content">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
-          <div class="rating">
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-gray.svg" alt="" class="star-gray" />
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM2_LamTangThanh</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <nav class="container">
+        <div class="heading-logo">
+            <img src="./img/Onlinetutor..svg" alt="">
         </div>
-        <div class="feed-wrapper">
-          <div class="user">
-            <img src="./images/user.svg" alt="" class="user-img" />
-            <span class="username">Ronald Richards</span>
-          </div>
-          <p class="feed-content">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
-          <div class="rating">
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-gray.svg" alt="" class="star-gray" />
-          </div>
+        <div class="menu-list">
+            <li class="menu-items">
+                <a href="#" class="menu-link">Home</a>
+            </li>
+            <li class="menu-items">
+                <a href="#" class="menu-link">Courses</a>
+            </li>
+            <li class="menu-items">
+                <a href="#" class="menu-link">Partners</a>
+            </li>
+            <li class="menu-items">
+                <a href="#" class="menu-link"> Universities</a>
+            </li>
+            <li class="menu-items">
+                <a href="#" class="menu-link">Blog</a>
+            </li>
+            <li class="menu-items">
+                <a href="#" class="menu-link">Contact</a>
+            </li>
         </div>
-        <div class="feed-wrapper">
-          <div class="user">
-            <img src="./images/user.svg" alt="" class="user-img" />
-            <span class="username">Ronald Richards</span>
-          </div>
-          <p class="feed-content">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-          </p>
-          <div class="rating">
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-yellow.svg" alt="" class="star-yellow" />
-            <img src="./images/star-gray.svg" alt="" class="star-gray" />
-          </div>
+        <div class="heading-btn">
+            <button class="btn-signin">Sign in</button>
+            <button class="btn-contact">Contact us</button>
         </div>
-      </section>
-    </main>
+    </nav>
+    <div class="join-as">
+        <div class="header">
+            <h2 class="content">Teaching in the Internet age means we must teach <span
+                    style="color: #ef670d;">tomorrow’s</span> <span style="color: #7f56d9;"> skills today</span> </h2>
+            <h6 class="para">Provides you with the latest online learning system and material that help your</h6>
+        </div>
+        <div class="btn-join">
+            <button class="btn-instructor">Join as Instructor</button>
+            <button class="btn-student"> Join as Student</button>
+        </div>
+    </div>
+
+    <!-- product card -->
+    <div class="product-head1">
+        <span style="color: #06241B;">Our Most </span><span style="color:#7F56D9 ;"> Popular Courses</span>
+    </div>
+    <span class="product-head2">Let’s join our best classes with our famous instructor and institutes</span>
+    <div class="pro-wrap">
+        <div class="product-card">
+            <img src="./img/machine.svg" alt="">
+            <div class="icon">
+                <div class="item-product">
+                    <img src="./img/iproveicon.svg" alt="">
+                    <span style="font-size: 16px; font-weight: 500;">25x Lesson</span>
+                </div>
+                <div class="star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+            <h3 class="product-title">
+                Supervised Machine Learning: Regression and Classification
+            </h3>
+            <hr class="line">
+            <div class="product-avt">
+                <div class="avata">
+                    <img src="./img/machineavt.svg" alt="">
+                    <div class="name-pro">
+                        <span style="font-size: 18px; font-weight: 600;color: #1F1F39;">Wade Warren</span>
+                        <span style="font-size: 14px; font-weight: 400; color:#7e7eaa">Python Developer</span>
+                    </div>
+                </div>
+                <button class="btn-product">Design</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./img/machine.svg" alt="">
+            <div class="icon">
+                <div class="item-product">
+                    <img src="./img/iproveicon.svg" alt="">
+                    <span style="font-size: 16px; font-weight: 500;">25x Lesson</span>
+                </div>
+                <div class="star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+            <h3 class="product-title">
+                Supervised Machine Learning: Regression and Classification
+            </h3>
+            <hr class="line">
+            <div class="product-avt">
+                <div class="avata">
+                    <img src="./img/machineavt.svg" alt="">
+                    <div class="name-pro">
+                        <span style="font-size: 18px; font-weight: 600;color: #1F1F39;">Wade Warren</span>
+                        <span style="font-size: 14px; font-weight: 400; color:#7e7eaa">Python Developer</span>
+                    </div>
+                </div>
+                <button class="btn-product">Design</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./img/machine.svg" alt="">
+            <div class="icon">
+                <div class="item-product">
+                    <img src="./img/iproveicon.svg" alt="">
+                    <span style="font-size: 16px; font-weight: 500;">25x Lesson</span>
+                </div>
+                <div class="star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+            <h3 class="product-title">
+                Supervised Machine Learning: Regression and Classification
+            </h3>
+            <hr class="line">
+            <div class="product-avt">
+                <div class="avata">
+                    <img src="./img/machineavt.svg" alt="">
+                    <div class="name-pro">
+                        <span style="font-size: 18px; font-weight: 600;color: #1F1F39;">Wade Warren</span>
+                        <span style="font-size: 14px; font-weight: 400; color:#7e7eaa">Python Developer</span>
+                    </div>
+                </div>
+                <button class="btn-product">Design</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./img/machine.svg" alt="">
+            <div class="icon">
+                <div class="item-product">
+                    <img src="./img/iproveicon.svg" alt="">
+                    <span style="font-size: 16px; font-weight: 500;">25x Lesson</span>
+                </div>
+                <div class="star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+            <h3 class="product-title">
+                Supervised Machine Learning: Regression and Classification
+            </h3>
+            <hr class="line">
+            <div class="product-avt">
+                <div class="avata">
+                    <img src="./img/machineavt.svg" alt="">
+                    <div class="name-pro">
+                        <span style="font-size: 18px; font-weight: 600;color: #1F1F39;">Wade Warren</span>
+                        <span style="font-size: 14px; font-weight: 400; color:#7e7eaa">Python Developer</span>
+                    </div>
+                </div>
+                <button class="btn-product">Design</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./img/machine.svg" alt="">
+            <div class="icon">
+                <div class="item-product">
+                    <img src="./img/iproveicon.svg" alt="">
+                    <span style="font-size: 16px; font-weight: 500;">25x Lesson</span>
+                </div>
+                <div class="star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+            <h3 class="product-title">
+                Supervised Machine Learning: Regression and Classification
+            </h3>
+            <hr class="line">
+            <div class="product-avt">
+                <div class="avata">
+                    <img src="./img/machineavt.svg" alt="">
+                    <div class="name-pro">
+                        <span style="font-size: 18px; font-weight: 600;color: #1F1F39;">Wade Warren</span>
+                        <span style="font-size: 14px; font-weight: 400; color:#7e7eaa">Python Developer</span>
+                    </div>
+                </div>
+                <button class="btn-product">Design</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="./img/machine.svg" alt="">
+            <div class="icon">
+                <div class="item-product">
+                    <img src="./img/iproveicon.svg" alt="">
+                    <span style="font-size: 16px; font-weight: 500;">25x Lesson</span>
+                </div>
+                <div class="star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+            <h3 class="product-title">
+                Supervised Machine Learning: Regression and Classification
+            </h3>
+            <hr class="line">
+            <div class="product-avt">
+                <div class="avata">
+                    <img src="./img/machineavt.svg" alt="">
+                    <div class="name-pro">
+                        <span style="font-size: 18px; font-weight: 600;color: #1F1F39;">Wade Warren</span>
+                        <span style="font-size: 14px; font-weight: 400; color:#7e7eaa">Python Developer</span>
+                    </div>
+                </div>
+                <button class="btn-product">Design</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- rating-card -->
+    <div>
+
+    </div>
+    <div class="rate-form">
+        <div class="rate-title">
+            <h1 style="
+            font-family: 'Caladea', serif;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 55px;
+            color: #1D1D45;
+            ">Testimonials</h1>
+            <span style="
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 40px;
+            color: #7E7EAA;
+            ">What our student say about us</span>
+        </div>
+
+        <div class="rating">
+            <div class="rating-card">
+                <div class="rate-avt">
+                    <img src="./img/avtrating1.svg" alt="">
+                    <span class="rate-name">Ronald Richards</span>
+                </div>
+                <div class="para-rate">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est
+                    laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                </div>
+                <div class="rate-star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+
+            <div class="rating-card">
+                <div class="rate-avt">
+                    <img src="./img/avtrating1.svg" alt="">
+                    <span class="rate-name">Ronald Richards</span>
+                </div>
+                <div class="para-rate">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est
+                    laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                </div>
+                <div class="rate-star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+
+            <div class="rating-card">
+                <div class="rate-avt">
+                    <img src="./img/avtrating1.svg" alt="">
+                    <span class="rate-name">Ronald Richards</span>
+                </div>
+                <div class="para-rate">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est
+                    laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                </div>
+                <div class="rate-star">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/yellowstar.svg" alt="">
+                    <img src="./img/graystar.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
     <footer>
-      <div class="footer container">
-        <!-- Cot 1: logo -->
-        <div class="company-info">
-          <img src="./images/logo-footer.svg" alt="" class="footer-logo" />
-          <p class="company-text">
-            Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+        <div class="footer">
+                    <!-- logo -->
+        <div class="footer-logo">
+            <img src="./img/footer.svg" alt="">
+            <p class="footer-infor">
+                Veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+            </p>
         </div>
-        <!-- Cot 2: Quick Links -->
-        <div class="quick-links">
-          <ul class="link-group">
-            <div class="link-row">
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-            </div>
-            <div class="link-row">
-              <li>
-                <a href="#">Courses</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </div>
-          </ul>
+        <!-- quick link -->
+        <div class="quick-link">
+            <ul class="link-group">
+                <h1 class="quick"> Quick link</h1>
+                <div class="link-row">
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">About</a>
+                    </li>
+
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+                </div>
+                <div class="link-row">
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">Couse</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="#" class="footer-link">Contact</a>
+                    </li>
+                </div>
+            </ul>
         </div>
-        <!-- Cot 3: Contact us -->
+        <!-- contact -->
         <div class="contact-us">
-          <div class="phone-address">
-            <span class="phone">(209) 555-0104</span>
-            <span class="address"
-              >2715 Ash Dr. San Jose, South Dakota 83475</span
-            >
-          </div>
-          <span class="email">michelle.rivera@example.com</span>
+            <h1 class="quick"> Contact Us</h1>
+            <div class="phone-address">
+                <div class="icon-footer">
+                    <img src="./img/phonecontact.svg" alt="">
+                    <span class="infor">(209) 555-0104</span>
+                </div>
+                <div class="icon-footer">
+                    <img src="./img/addresscontatct.svg" alt="">
+                    <span class="infor">2715 Ash Dr. San Jose, South Dakota 83475</span>
+                </div>
+            </div>
+            <div class="icon-footer">
+                <img src="./img/emailcontact.svg" alt="">
+                <span class="infor">michelle.rivera@example.com</span>
+            </div>
         </div>
-      </div>
+        </div>
+        <hr class="line-footer">
+        <div class="icon-end">
+            <img src="./img/iconface.svg" alt="">
+            <img src="./img/iconx.svg" alt="">
+            <img src="./img/inconins.svg" alt="">
+            <img src="./img/iconbe.svg" alt="">
+            <img src="./img/iconball.svg" alt="">
+        </div>
+
     </footer>
-  </body>
+
+</body>
+
 </html>
